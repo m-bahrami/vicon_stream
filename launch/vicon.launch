@@ -3,7 +3,10 @@
 
   <node pkg="vicon_stream" type="vicon_stream" name="vicon" output="screen" >
     <rosparam>
-      vicon_host_name: "vicon"
+      vicon_host_name: 192.168.1.106
+      vicon_object_name: toby
+      enable_objects: true
+      enable_markers: false
     </rosparam>
   </node>
 </launch>
